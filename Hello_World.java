@@ -18,6 +18,7 @@ public class Hello_World {
         nums2.add(1);
         nums2.add(2);
         nums2.add(3);
+        nums2.add(4);
         System.out.println(nums2.isEmpty());
     }
 }
