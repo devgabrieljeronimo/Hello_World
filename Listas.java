@@ -8,11 +8,17 @@ public class Listas {
 
         List<String> num = new ArrayList<>();
 
-        num.add("OI");
+        num.add("OI"); // ADIOCIONA VALORES AO ARRAY
         num.add("BOM DIA!");
         num.add("BOA TARDE!");
-        num.addFirst("PRIMEIRO");
+        num.add("BOA NOITE!");
+        num.add("ROI");
 
-        System.out.println(num.get(3) );
+        num.addFirst("PRIMEIRO"); // ADICIONA VALORES NA PRIMEIRA E ULTIMA POSICAO
+        num.addLast("ULTIMO");
+
+        num.set(6, "OI"); // MUDA O VALOR DA POSICAO 6 (ULTIMA)
+
+        System.out.println(num.getLast() );
     }
 }
