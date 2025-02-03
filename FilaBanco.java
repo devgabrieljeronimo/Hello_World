@@ -24,6 +24,7 @@ public class FilaBanco {
         filaCliente.add("TypeScript");
         filaCliente.add("GO");
         filaCliente.add("Assembly");
+        filaCliente.add("Pascal");
 
         while ( !filaCliente.isEmpty() ) {
             String clienteAtendido = filaCliente.poll();
