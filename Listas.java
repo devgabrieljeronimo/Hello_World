@@ -19,6 +19,15 @@ public class Listas {
 
         num.set(6, "OI"); // MUDA O VALOR DA POSICAO 6 (ULTIMA)
 
-        System.out.println(num.getLast() );
+        while (!num.isEmpty() ) {
+            System.out.println(num.getLast() );
+            num.removeLast();
+            try {
+                Thread.sleep(1000);
+            }
+            catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

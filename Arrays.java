@@ -1,7 +1,7 @@
 public class Arrays {
     public static void main(String[] args) {
 
-        /*int[][] Padlock = {
+        int[][] Padlock = {
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9}
@@ -12,6 +12,6 @@ public class Arrays {
                 System.out.print(valor + " ");
             }
             System.out.println();
-        }*/
+        }
     }
 }
